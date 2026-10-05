@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Semester dan riwayat akademik Andre Ary Setiawan">
+  <title>Portfolio | Semester</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body data-page="semester">
+
+<header class="site-header">
+  <nav class="navbar container">
+    <a class="logo" href="index.html">PORTFOLIO<span>.</span></a>
+    <button class="menu-toggle" type="button" aria-label="Buka menu" aria-expanded="false">☰</button>
+    <div class="nav-links" id="navLinks">
+      <a href="index.html">Home</a>
+      <a class="active" href="semester.html">Semester</a>
+      <a href="index.html#mata-kuliah">Mata Kuliah</a>
+      <a href="index.html#project">Project</a>
+      <a href="index.html#about">About</a>
+    </div>
+  </nav>
+</header>
+
+<main>
+  <section class="page-hero">
+    <div class="container">
+      <p class="eyebrow">AKADEMIK</p>
+      <h1>Semester</h1>
+      <p>Pilih semester untuk melihat mata kuliah, kelas, serta riwayat IP dan IPK.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">RIWAYAT AKADEMIK</p>
+          <h2>IP &amp; IPK</h2>
+        </div>
+      </div>
+      <div id="academicList" class="academic-grid">
+        <div class="loading-card">Memuat riwayat akademik...</div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-alt">
+    <div class="container">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">PERKULIAHAN</p>
+          <h2>Pilih Semester</h2>
+        </div>
+      </div>
+      <div id="semesterList" class="semester-grid">
+        <div class="loading-card">Memuat semester...</div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="container footer-inner">
+    <span>PORTFOLIO.</span>
+    <span>Andre Ary Setiawan · Teknik Informatika S1</span>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

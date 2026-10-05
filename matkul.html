@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Detail mata kuliah Andre Ary Setiawan">
+  <title>Portfolio | Mata Kuliah</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body data-page="matkul">
+
+<header class="site-header">
+  <nav class="navbar container">
+    <a class="logo" href="index.html">PORTFOLIO<span>.</span></a>
+    <button class="menu-toggle" type="button" aria-label="Buka menu" aria-expanded="false">☰</button>
+    <div class="nav-links" id="navLinks">
+      <a href="index.html">Home</a>
+      <a href="semester.html">Semester</a>
+      <a class="active" href="index.html#mata-kuliah">Mata Kuliah</a>
+      <a href="index.html#project">Project</a>
+      <a href="index.html#about">About</a>
+    </div>
+  </nav>
+</header>
+
+<main id="courseDetail">
+  <section class="page-hero course-hero">
+    <div class="container">
+      <a class="back-link" href="index.html#mata-kuliah">← Kembali ke Mata Kuliah</a>
+      <p class="eyebrow" id="courseSemester">SEMESTER —</p>
+      <h1 id="courseTitle">Memuat...</h1>
+      <div id="courseMeta" class="course-meta-row"></div>
+      <p id="courseSubtitle">Catatan, tugas, dan dokumentasi mata kuliah.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container detail-sections">
+      <div class="detail-block">
+        <div class="section-heading compact">
+          <div>
+            <p class="eyebrow">MATERI</p>
+            <h2>Catatan</h2>
+          </div>
+        </div>
+        <div id="notesList" class="content-list">
+          <div class="loading-card">Memuat catatan...</div>
+        </div>
+      </div>
+
+      <div class="detail-block">
+        <div class="section-heading compact">
+          <div>
+            <p class="eyebrow">PENGERJAAN</p>
+            <h2>Tugas</h2>
+          </div>
+        </div>
+        <div id="tasksList" class="content-list">
+          <div class="loading-card">Memuat tugas...</div>
+        </div>
+      </div>
+
+      <div class="detail-block" id="practicumSection">
+        <div class="section-heading compact">
+          <div>
+            <p class="eyebrow">PRAKTIKUM</p>
+            <h2>Praktikum</h2>
+          </div>
+        </div>
+        <div id="practicumList" class="practicum-list">
+          <div class="loading-card">Memuat praktikum...</div>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="container footer-inner">
+    <span>PORTFOLIO.</span>
+    <span>Andre Ary Setiawan · Teknik Informatika S1</span>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

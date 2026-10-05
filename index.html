@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio kuliah Andre Ary Setiawan - Teknik Informatika S1">
+  <title>Portfolio | Home</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body data-page="home">
+
+<header class="site-header">
+  <nav class="navbar container">
+    <a class="logo" href="index.html">PORTFOLIO<span>.</span></a>
+    <button class="menu-toggle" type="button" aria-label="Buka menu" aria-expanded="false">☰</button>
+    <div class="nav-links" id="navLinks">
+      <a class="active" href="index.html">Home</a>
+      <a href="semester.html">Semester</a>
+      <a href="index.html#mata-kuliah">Mata Kuliah</a>
+      <a href="index.html#project">Project</a>
+      <a href="index.html#about">About</a>
+    </div>
+  </nav>
+</header>
+
+<main>
+  <section class="hero">
+    <div class="container hero-content">
+      <div class="hero-profile">
+        <div class="hero-info">
+          <p class="eyebrow">PORTFOLIO KULIAH</p>
+          <h1>Andre Ary<br><span>Setiawan.</span></h1>
+          <div class="identity-list">
+            <p><strong>NPM</strong><span>253510672</span></p>
+            <p><strong>PROGRAM STUDI</strong><span>Teknik Informatika S1</span></p>
+          </div>
+          <p class="hero-text">
+            Portfolio ini digunakan sebagai dokumentasi perjalanan akademik selama menempuh pendidikan di Program Studi Teknik Informatika. Di dalamnya terdapat mata kuliah, materi pembelajaran, catatan, tugas, project, serta dokumentasi kegiatan perkuliahan.
+          </p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#mata-kuliah">Lihat Mata Kuliah</a>
+            <a class="btn btn-ghost" href="semester.html">Pilih Semester</a>
+          </div>
+        </div>
+
+        <div class="hero-photo-wrap">
+          <div class="hero-photo-glow"></div>
+          <div class="hero-photo-card">
+            <img src="assets/andre-ary.jpg" alt="Foto Andre Ary Setiawan">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="hero-glow"></div>
+  </section>
+
+  <section class="section" id="mata-kuliah">
+    <div class="container">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">AKADEMIK</p>
+          <h2>Mata Kuliah</h2>
+        </div>
+        <div class="semester-badge" id="semesterBadge">Semester —</div>
+      </div>
+      <div id="courseList" class="card-grid">
+        <div class="loading-card">Memuat mata kuliah...</div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-alt" id="project">
+    <div class="container">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">KARYA</p>
+          <h2>Project</h2>
+        </div>
+      </div>
+      <div id="projectList" class="card-grid project-grid">
+        <div class="loading-card">Memuat project...</div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="about">
+    <div class="container about-card">
+      <div>
+        <p class="eyebrow">TENTANG</p>
+        <h2>About</h2>
+      </div>
+      <p>
+        Portfolio ini menjadi arsip digital untuk menyimpan dan menampilkan perjalanan akademik Andre Ary Setiawan selama kuliah Teknik Informatika S1. Seluruh data mata kuliah, tugas, catatan, project, dan dokumentasi lainnya dapat diperbarui melalui Google Sheets tanpa harus mengubah struktur website.
+      </p>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="container footer-inner">
+    <span>PORTFOLIO.</span>
+    <span>Andre Ary Setiawan · Teknik Informatika S1</span>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
