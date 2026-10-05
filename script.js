@@ -4,7 +4,7 @@ const DATA_URLS = {
   project: "https://docs.google.com/spreadsheets/d/e/2PACX-1vQB4FSvr4NZRfnYY6es0RcsSvbQphap4lPjIJBg8fM-PAuFooGNcOPxz4SvNr6jgA9BBLUZQpjeWsCq/pub?gid=678966839&single=true&output=csv",
   settings: "https://docs.google.com/spreadsheets/d/e/2PACX-1vQB4FSvr4NZRfnYY6es0RcsSvbQphap4lPjIJBg8fM-PAuFooGNcOPxz4SvNr6jgA9BBLUZQpjeWsCq/pub?gid=1424245249&single=true&output=csv",
   // Sheet baru. Gviz memakai nama sheet, jadi tidak perlu mengetahui gid akademik.
-  akademik: "https://docs.google.com/spreadsheets/d/1WfV6Vr1-daUjMoAFyVZIbku1SSVV6mzblZJ19OxmBtU/gviz/tq?tqx=out:csv&sheet=akademik",
+  akademik: "https://docs.google.com/spreadsheets/d/e/2PACX-1vQB4FSvr4NZRfnYY6es0RcsSvbQphap4lPjIJBg8fM-PAuFooGNcOPxz4SvNr6jgA9BBLUZQpjeWsCq/pub?gid=2006447484&single=true&output=csv",
   praktikum: "https://docs.google.com/spreadsheets/d/1WfV6Vr1-daUjMoAFyVZIbku1SSVV6mzblZJ19OxmBtU/gviz/tq?tqx=out:csv&sheet=praktikum"
 };
 
